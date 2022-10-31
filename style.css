@@ -22,8 +22,9 @@
 }
 
 @media (max-width:768px) {
-  .preface { text-align: center;
-}
+  .preface { 
+    text-align: center;
+  }
 
 }
 .planner {
@@ -47,11 +48,13 @@
   padding: 0px;
 
 }
-.task-item, .section-header {
+.task-item,
+.section-header {
   list-style: none;
 
 }
-.input, .button{
+.input,
+.button{
   outline: none;
 
 }
