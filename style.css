@@ -3,46 +3,57 @@
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
+
 }
 .preface {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
+
 }
 .preface-img {
   width: 100%;
+
 }
 .more-inf {
   font-family: fantasy, cursive;
+
 }
 
 @media (max-width:768px) {
   .preface { text-align: center;
 }
+
 }
 .planner {
   display: block;
   width: 500px;
   margin: 0 auto 0;
+
 }
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
+
 }
 .adding-form {
   display: flex;
+
 }
 .tasks-list {
   margin:0;
   padding: 0px;
+
 }
 .task-item, .section-header {
   list-style:none;
+
 }
 .input, .button{
   outline:none;
+
 }
 .button {
   background: none;
@@ -52,9 +63,11 @@
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+
 }
 .button:hover {
   color: #3a3a3a;
+
 }
 /* heading */
 .section-header,
@@ -66,6 +79,7 @@
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
+
 }
 .task-content{
   margin: 0;
@@ -78,18 +92,22 @@
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+
 }
 .task-content:focus {
   color: #333;
+
 }
 
 /* new task */
 .label.new-task {
   display: block;
   margin: 0 0 20px;
+
 }
 .input#new-task {
   width: 318px;
+
 }
 
 /* task list */
@@ -97,54 +115,64 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 .task-item .button,
 .task-item .label,
 .task-item .input {
   vertical-align: middle;
+
 }
 
 .task-item > .check {
   margin: 0 10px;
+
 }
 .task-item .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+
 }
 .task-item > .task-content {
   width: 226px
+
 }
 .button-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
+
 }
 .button-img:hover {
   transform: rotateZ(0);
+
 }
 
 /* completed */
 .tasks-list#completed-tasks .label {
   text-decoration: line-through
   color: #888;
+
 }
 
 /* Edit Task */
 .tasks-list .task-item .task-content {
   display:none
+
 }
 
 .tasks-list .task-item.edit-mode .task-content {
   display:inline-block;
   width:224px
+
 }
 
 .tasks-list .task-item.edit-mode .label {
   display:none;
+
 }
